@@ -9,17 +9,17 @@
 <body>
   <header>
     <ul>
-      <li class="logo">我的日记</li>
-      <li class="banner">记录我的生活</li>
+      <li class="logo">Diary</li>
+      <li class="banner">Your Cloud Diary</li>
       <li class="search"><form><input type="search" placeholder="关键词..."></form></li>
     </ul>
     <nav>
       <ul>
-        <li class="active"><a href="index.html">首页</a></li>
-        <li><a href="personal.html">个人中心</a></li>
-        <li><a href="friendcircle.html">好友圈</a></li>
-        <li><a href="diary.html">日记</a></li>
-        <li><a href="login.html">登录/注册</a></li>
+        <li class="active"><a href="index.html"title="浏览站内">首页</a></li>
+        <li><a href="personal.html"title="创造你的生活">个人中心</a></li>
+        <li><a href="friendcircle.html"title="分享生活中的新鲜事">好友圈</a></li>
+        <li><a href="diary.html"title="记录日常">日记</a></li>
+        <li><a href="login.html"title="开始记录之旅">登录/注册</a></li>
       </ul>
     </nav>
   </header>
