@@ -1,1 +1,60 @@
-shvlilawbchjwe
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文章页面</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <ul>
+      <li class="logo">Diary</li>
+      <li class="banner">Yours Cloud Diary</li>
+      <li class="search"><form><input type="search" placeholder="关键词..."></form></li>
+    </ul>
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+		<li class="active"><a href="p_message.html">个人中心</a></li>
+		<li><a href="friendcircle.html">好友圈</a></li>
+        <li><a href="diary.html">日记</a></li>
+        <li><a herf="login.html">登录/注册</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="container">
+  <aside>
+    <img src="images/people.jpg" width="100" height="100" alt="使用狮子图像表示前端设计狮的身份"/>
+    <p>张三</p>
+	  <a href="#">修改头像</a>
+  </aside>
+  <section>
+    <article>
+      <h2>往期日志</h2>
+	  <li><a href="#">2019年6月</a></li>
+      <li><a href="#">2019年5月</a></li>
+      <li><a href="#">2019年4月</a></li>
+      <li><a href="#">2019年3月</a></li>
+      <li><a href="#">2019年2月</a></li>
+      <li><a href="#">2019年1月以前</a></li>
+      <a href="1.html">[ 查看全部 ]</a>
+    </article>
+	  <hr>
+     <article>
+		 <h2>个人基本资料</h2>
+		 <p><span style="margin-right:20px;">昵称：</span>张三</p>
+		 <p><span style="margin-right:20px;">账号：</span>17092812</p>
+		 <p><span style="margin-right:20px;">性别：</span>男</p>
+		 <p><span style="margin-right:20px;">电话：</span>15574338919</p>
+		 <p><span style="margin-right:20px;">注册时间：</span>2015-03-12</p>
+		 <p><span style="margin-right:20px;">个人简介：</span>本人爱好随时随地记录生活中的点点滴滴，记录心情记录美好</p>
+</article>
+	  <p><a href="#">修改信息</a></p>
+
+		
+
+  </section>
+</div>
+<footer>联系我们：18857290901   邮箱：2813389577@qq.com</footer>
+</body>
+</html>
