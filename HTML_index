@@ -43,11 +43,11 @@
       </article>
   </aside>
   <section class="mid">
-      <h1>精选素材欣赏</h1>
+      <h1>站内精选素材欣赏</h1>
       <div id="slides">
-        <img src="tuku/flower.jpg">
-        <img src="tuku/ps.jpg">
-        <img src="tuku/Tulips.jpg">
+        <img src="images/006.gif">
+        <img src="images/007.gif">
+        <img src="images/008.gif">
       </div>
   </section>
   <aside id="right">
@@ -61,25 +61,25 @@
    <input type=button value="提交">
    </a>
    </form>
-   <h3>我常去的网站</h3>
+   <h3>外站素材</h3>
    <ol>
-     <li><a href="http://www.w3school.com.cn/">w3school-领先的 Web 技术教程</a></li>
-     <li><a href="http://baike.baidu.com/">百度百科</a></li>
-     <li><a href="http://www.adobe.com/cn/">Adobe中国官网</a></li>
-     <li><a href="http://www.uisdc.com/">优设网</a></li>
-     <li><a href="http://www.bootcss.com/">bootstrap中文网</a></li>
+     <li><a href="http://www.pixabay.com/">Free Images-Pixabay</a></li>
+     <li><a href="http://www.gratisography.com/">创意图片作品</a></li>
+     <li><a href="http://www.pixelsquid.com/">三维图片</a></li>
+     <li><a href="http://www.behance.net/">欧美景观</a></li>
+     <li><a href="http://www.flaticon.com/">平面图标网站</a></li>
      <li><a href="http://www.sccnn.com/">素材中国</a></li>
    </ol>
   </aside>
 </div>
-<footer>Copyright &copy; 2015 sunna All rights reserved.</footer>
+<footer>Copyright &copy; 2019 17software_engineering All rights reserved.</footer>
 <script src="js/jquery.min.js"></script>
   <script src="js/jquery.slides.min.js"></script>
   <script>
     $(function() {
       $('#slides').slidesjs({
         width: 400,
-        height: 300,
+        height: 350,
         play: {
           active: true,
           auto: true,
@@ -90,4 +90,4 @@
     });
   </script>
 </body>
-</html>
+</html
