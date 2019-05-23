@@ -24,7 +24,7 @@
   </header>
 <div class="container">
   <aside>
-    <img src="images/people.jpg" width="100" height="100" alt="使用狮子图像表示前端设计狮的身份"/>
+    <img src="images/people.jpg" width="100" height="100"/>
     <p>张三</p>
 	  <a href="#">修改头像</a>
   </aside>
@@ -55,6 +55,6 @@
 
   </section>
 </div>
-<footer>联系我们：18857290901   邮箱：2813389577@qq.com</footer>
+<footer>Copyright &copy; 2019 17software_engineering All rights reserved.</footer>
 </body>
 </html>
