@@ -15,11 +15,11 @@
     </ul>
     <nav>
       <ul>
-        <li class="active"><a href="index.html"title="浏览站内">首页</a></li>
-        <li><a href="personal.html"title="创造你的生活">个人中心</a></li>
-        <li><a href="friendcircle.html"title="分享生活中的新鲜事">好友圈</a></li>
-        <li><a href="diary.html"title="记录日常">日记</a></li>
-        <li><a href="login.html"title="开始记录之旅">登录/注册</a></li>
+        <li class="active"><a href="index.html" title="浏览站内">首页</a></li>
+        <li><a href="personal.html" title="创造你的生活">个人中心</a></li>
+        <li><a href="friendcircle.html" title="分享生活中的新鲜事">好友圈</a></li>
+        <li><a href="diary.html" title="记录日常">日记</a></li>
+        <li><a href="login.html" title="开始记录之旅">登录/注册</a></li>
       </ul>
     </nav>
   </header>
@@ -51,17 +51,17 @@
       </div>
   </section>
   <aside id="right">
-   <h1>意见反馈</h1>
+   <h3>意见反馈</h3>
    <form>
    <label>标题:</label><br>
    <input type="text"><br>
    <label>内容:</label><br>
    <textarea></textarea><br>
    <a href="4.html">
-   <input type=button value="提交">
+   <input type="button" value="提交">
    </a>
    </form>
-   <h3>外站素材</h3>
+   <h1>外站素材</h1>
    <ol>
      <li><a href="http://www.pixabay.com/">Free Images-Pixabay</a></li>
      <li><a href="http://www.gratisography.com/">创意图片作品</a></li>
@@ -90,4 +90,4 @@
     });
   </script>
 </body>
-</html
+</html>
