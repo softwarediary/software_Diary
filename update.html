@@ -1,0 +1,48 @@
+    
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>更改信息</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+    <ul>
+      <li class="logo">Diary</li>
+      <li class="banner">Your Cloud Diary</li>
+    </ul>
+   <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+		<li class="active"><a href="p_message.html">个人中心</a></li>
+		<li><a href="friendcircle.html">好友圈</a></li>
+        <li><a href="diary.html">日记</a></li>
+        <li><a herf="login.html">登录/注册</a></li>
+      </ul>
+    </nav>
+  </header>
+	
+   <form action="Operate1" method="post" name="Form">
+	<div class="formgroup">
+<p>账号: 
+  <input type="text" class="text-input" name="ID" required="required" style="height:25px;width:350px">
+<p>昵称: 
+  <input type="text" class="text-input" name="name" placeholder="输入修改后的昵称…" style="height:25px;width:350px">
+<p>性别: 
+  <input type="text" class="text-input" name="sex" placeholder="输入修改后的性别…"style="height:25px;width:350px">
+<p>邮箱: 
+  <input type="text" class="text-input" name="email" placeholder="输入修改后的的邮箱…"style="height:25px;width:350px">
+<p>联系方式: 
+  <input type="text" class="text-input" name="telephone" placeholder="输入修改后的的联系方式…"style="height:25px;width:350px">
+<p>个人简介: 
+  <input type="text" class="text-input" name="jianjie" placeholder="输入修改后的的个人简介…"style="height:25px;width:350px">
+</p>
+<br>
+<br>
+     <input type="submit" class="button" value="修改信息">
+	</div>
+</form>
+</body>
+</html>

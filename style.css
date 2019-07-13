@@ -1,0 +1,464 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	font-size:14px;
+	background: -webkit-linear-gradient(#FFB4A2, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#FFB4A2, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#FFB4A2, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#FFB4A2, white); /* 标准的语法（必须放在最后） */
+}
+a{
+	text-decoration:none;
+	color:#6D6875;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.inline-block{display:inline-block;}
+.logo{
+	display:inline-block;
+	margin:20px 30px;
+	padding:3px;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:30px;
+	line-height:1.8em;
+	border:3px solid #FFCCB2;
+	border-radius:10px;	
+}
+.banner{
+	display:inline-block;
+	font-family:"Bodoni MT Black";
+	font-weight:bold;
+	font-style:italic;
+	font-size:40px;
+	color:#fff;
+	
+}
+.search{
+	display:inline-block;
+	margin-left:400px;
+}
+.search2{
+	  text-align: center;
+	width: 200px;
+	margin-right:auto;
+	margin-bottom: 30px;
+}
+header{
+	background:#FFFFFF;
+	background: rgba(0, 0, 0, 0) none repeat scroll ;
+	height: 140px;
+	width: 90%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+header input{
+	margin-top:30px;
+	margin-right:100px;
+	width:120px;
+	height:30px;
+	background:#FFFFFF;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	color:black;
+	border: 1px solid #fff;
+	border-radius:5px;
+}
+
+header nav ul{
+	margin-right:150px;
+	text-align:right;
+}
+header nav ul>li{
+	display:inline;
+	color: #000000;
+}
+header nav ul>li a{
+	padding:10px 10px;
+	letter-spacing:5px;
+	font-size:18px;
+	color:#000000;
+}
+header nav ul>li.active a{
+	font-weight:bold;
+	color:#fff;
+	border-bottom:3px solid #fff;
+}
+
+/*侧边框*/
+.container{
+	width:90%;
+	height:640px;
+	margin:5px auto;
+}
+.container aside{
+	margin:10px 0;
+	padding-top:20px;
+	width:20%;
+	height:600px;
+	text-align: center;
+	font-size:14px;
+	float:left;
+	background:#FFFFFF;
+	background: rgba(0, 0, 0, 0.05) none repeat scroll ;
+}
+.container aside h2{
+	padding-top:20px;
+	color: #414141;
+}
+.container aside ul{
+	margin-left:40px;
+	text-align:left;
+}
+.container aside ul>li{
+	height:30px;
+}
+.container aside ul>li a{
+	color:#333;
+}
+.container aside ul>li a:hover{
+	color:#aaa;
+}	
+.container aside ul>li.active a{
+	color:#149de0;
+}
+/*中间区域*/
+.container section{
+	margin:10px 0;
+	padding:10px 20px;
+	width:76%;
+	height:600px;
+	float:right;
+	background:#FFFFFF;
+	background: rgba(0, 0, 0, 0.05) none repeat scroll ;
+}
+.container section article{
+	margin:30px 0;
+}
+.container section article p{
+	font-size:14px;
+	color:#333;
+}
+.container section article h3{
+	height:40px;
+	line-height:2.5em;
+	padding-left:20px;
+	border-left:3px solid #000000;
+}
+
+.container section article h3 a{
+	font-size:16px;
+	color:#450E0F;	
+}
+
+
+.container section article h3 a:hover{
+	font-size:16px;
+	color:#E5989B;	
+}
+footer{
+	padding:30px 0;
+	text-align:center;
+}
+
+/*针对index.html页面的CSS样式*/
+.container #articles{
+	width:18%;
+	height:600px;
+	padding:20px;
+	text-align:left;
+	float:left;
+	
+}
+.container #articles h1{
+	font-size:20px;
+	color:red;
+	height:40px;
+	line-height:2.5em;
+	padding-left:20px;
+	border-left:3px solid red;
+}
+.container #articles article{
+	margin:30px 0;	
+	color:#797979;
+}
+.container section.mid{
+	width:50%;
+	margin-left:25px;
+	height:600px;
+	padding:20px;
+	text-align:left;
+	float:left;
+}
+.container section.mid h1{
+	font-size:20px;
+	color:red;
+	height:40px;
+	line-height:2.5em;
+	padding-left:20px;
+	border-right:3px solid red;
+	border-bottom:3px solid red;
+}
+ #slides {
+	  margin:30px;
+      display: none;
+ }
+
+ #slides .slidesjs-navigation {
+      margin-top:5px;
+ }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+/*index.html右侧边栏*/
+.container #right{
+	width:18%;
+	height:600px;
+	padding:20px;
+	text-align:left;
+	float:right;	
+}	
+.container #right h1{
+	font-size:20px;
+	color:red;
+	height:40px;
+	line-height:2.5em;
+	padding-left:20px;
+	border-bottom:3px solid red;
+}
+.container #right input{
+	height:25px;
+	border: 2px solid #ddd;
+	border-radius:5px;
+}
+.container #right textarea{
+	width:90%;
+	height:100px;
+	border: 2px solid #ddd;
+	border-radius:5px;
+}
+.container #right h3{
+	margin-top:60px;
+	font-size:16px;
+	color:#450E0F;
+	height:28px;
+}
+.container #right ol{
+	margin-left:-28px;
+}
+.container #right ol>li{
+	height:30px;
+}
+/*signin.html 特殊样式*/
+.formgroup{
+
+  text-align: center;
+	margin-top:125px;
+}
+.formgroup input.text-input {
+	margin-top:auto;
+	margin-bottom:30px;
+	margin-left:auto;
+	
+	width:200px;
+	height:20px;
+	background:#EEEEEE;
+	font-family:"Microsoft Yahei",微软雅黑,"Helvetica Neue",Arial,sans-serif;
+	color:black;
+	border: 3px solid #FFB4A2;
+	border-radius:10px;
+}
+/*video.html 特殊样式*/
+video {
+    width: 100%;
+    height: auto;
+}
+.formgroup input.button
+{	margin:20px 0;
+	padding:6px 20px;
+	font-family:"Microsoft Yahei",微软雅黑,"Helvetica Neue",Arial,sans-serif;
+	border:1px solid white;
+	border-radius:3px;
+	font-size:14px;
+	color:white;
+	background:#FFB4A2;}
+
+/*书上例子之外的CSS属性都放在以下*/
+.container section article h1{
+	text-align:center;
+	color:red;
+}
+.container section article ul li{
+	display:inline;
+}
+
+.container section article ul.block li{
+	display:block;
+}
+.container section a img{
+	padding:10px 5px;
+	height:120px;
+	width:180px;
+}
+.container section a:hover img{
+	padding:10px 5px;
+	height:121px;
+	width:181px;
+}
+.container section label{
+	height:24px;
+	font-size:16px;
+}
+
+.container section .text-input{
+	margin:10px 0;
+	border:2px solid #31a8e6;
+	border-radius:5px;
+	font-size:14px;
+	height:24px;
+	width:500px;
+	
+}
+
+container section  input{
+	color :black;
+	margin:10px 0;
+	border:1px solid #F4F2C7;
+	border-radius:2px;
+	font-size:14px;
+	height:500px;
+	width:800px;
+}
+.container section textarea{
+	color :black;
+	margin:10px 0;
+	border:1px solid #F4F2C7;
+	border-radius:2px;
+	font-size:14px;
+	height:500px;
+	width:800px;
+}
+.container section .button{
+	margin:20px 0;
+	padding:6px 20px;
+	font-family:"Microsoft Yahei",微软雅黑,"Helvetica Neue",Arial,sans-serif;
+	border:1px solid white;
+	border-radius:3px;
+	font-size:14px;
+	color:white;
+	background:#31a8e6;
+}
+.container section .button:hover{
+	background:#3190e6;
+}
+.container section ol li{
+	height:32px;
+	color:#777;	
+}
+.container section ol li>a{
+	font-size:16px;
+	color:#777;	
+}
+.container section ol li>a:hover{
+	color:#333;
+}

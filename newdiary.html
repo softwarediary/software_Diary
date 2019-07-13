@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>日记</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <ul>
+      <li class="logo">Diary</li>
+      <li class="banner">Your Cloud Diary</li>
+      <li class="search"><form><input type="search" placeholder="关键词..."></form></li>
+    </ul>
+    <nav>
+      <ul>
+        <li ><a href="index.html" title="浏览站内">首页</a></li>
+        <li><a href="personal.html" title="创造你的生活">个人中心</a></li>
+        <li><a href="friendcircle.html" title="分享生活中的新鲜事">好友圈</a></li>
+        <li class="active"><a href="diary.html" title="记录日常">日记</a></li>
+        <li><a href="signin.html" title="开始记录之旅">登录/注册</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="container">
+  <aside>
+    <img src="images/simao.jpg" width="100" height="100" alt="使用四毛表示文文的身份"/>
+    <p>萌萌森林里一点都不二的四毛</p>
+	  <a href="#">修改头像</a>
+  </aside>
+  <section>
+	<header style="
+				 background:#FFFFFF;
+	             background: rgba(0, 0, 0, 0.1) none repeat scroll ;
+	             height: 30px;
+	             width: 100%;
+	             margin-top: 5px;
+	             margin-right: auto;
+	             margin-bottom: 5px;
+	             margin-left: left;
+				 ">
+		<nav>
+			<ul style="text-align: left">
+		       <li ><a href=" diary.html" style="font-size: 8px">历史日记</a></li>
+              <li class="active"><a href="new.html" style="font-size: 8px">新建日记</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form action="DiaryActivity" method="post" name="Form">
+	  <p>
+	标题：<br/>
+		  <p>
+		  <input type="text" name="title">
+		  </br>
+	  <input type="checkbox" name="checkbox" value="仅自己可见"/>仅自己可见
+	  	  <input type="checkbox" name="checkbox" value="公开"/>公开
+	  </p>
+		   内容:<br>
+   	   <input type="textarea" name="content" size="50" style="width:500px;height:350px;"/>
+	<input type="button"onclick="submit()" value="保存" />
+	 <input type="submit" value="分享"/>
+	 </form>
+  </section>
+</div>
+<footer>Copyright &copy; 2019 17software_engineering All rights reserved.</footer>
+</body>
+</html>
