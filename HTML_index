@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>主界面</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</style>
+</head>
+<body>
+  <header>
+    <ul>
+      <li class="logo">Diary</li>
+      <li class="banner">Your Cloud Diary</li>
+      <li class="search"><form><input type="search" placeholder="关键词..."></form></li>
+    </ul>
+    <nav>
+      <ul>
+        <li class="active"><a href="index.html" title="浏览站内">首页</a></li>
+        <li><a href="personal.html" title="创造你的生活">个人中心</a></li>
+        <li><a href="friendcircle.html" title="分享生活中的新鲜事">好友圈</a></li>
+        <li><a href="diary.html" title="记录日常">日记</a></li>
+        <li><a href="login.html" title="开始记录之旅">登录/注册</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="container">
+  <aside id="articles">
+    <h1>最新上传日记</h1>
+    <article>
+      <h3><a href="#">今日心情1</a></h3>
+      <p>天气：晴 日期： 温度：  地点： ......</p>
+      <a href="1.html">[ 查看全文 ]</a>
+    </article>
+     <article>
+        <h3><a href="#">今日心情2</a></h3>
+        <p>天气：晴 日期： 温度：  地点： ......</p>
+		 <a href="2.html">[ 查看全文 ]</a>
+      </article>
+      <article>
+        <h3><a href="#">今日心情3</a></h3>
+        <p>天气：晴 日期： 温度：  地点： ......</p>
+		 <a href="3.html">[ 查看全文 ]</a>
+      </article>
+  </aside>
+  <section class="mid">
+      <h1>站内精选素材欣赏</h1>
+      <div id="slides">
+        <img src="images/006.gif">
+        <img src="images/007.gif">
+        <img src="images/008.gif">
+      </div>
+  </section>
+  <aside id="right">
+   <h3>意见反馈</h3>
+   <form>
+   <label>标题:</label><br>
+   <input type="text"><br>
+   <label>内容:</label><br>
+   <textarea></textarea><br>
+   <a href="4.html">
+   <input type="button" value="提交">
+   </a>
+   </form>
+   <h1>外站素材</h1>
+   <ol>
+     <li><a href="http://www.pixabay.com/">Free Images-Pixabay</a></li>
+     <li><a href="http://www.gratisography.com/">创意图片作品</a></li>
+     <li><a href="http://www.pixelsquid.com/">三维图片</a></li>
+     <li><a href="http://www.behance.net/">欧美景观</a></li>
+     <li><a href="http://www.flaticon.com/">平面图标网站</a></li>
+     <li><a href="http://www.sccnn.com/">素材中国</a></li>
+   </ol>
+  </aside>
+</div>
+<footer>Copyright &copy; 2019 17software_engineering All rights reserved.</footer>
+<script src="js/jquery.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 400,
+        height: 350,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+</body>
+</html>
