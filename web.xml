@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>userLogin.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- 配置servlet监听器 -->
+  <!-- 
+  <listener>
+  	<listener-class>fiter.SessionListenerTest</listener-class>
+  </listener>
+   -->
+  <!-- Tomcat中session的默认超时时间为20分钟 -->
+  <!-- 设置session的超时时间，单位为 ”分钟“，而session.setMaxInactiovInterval(int s)传入的参数为秒 -->
+  <!--
+   <session-config>
+  	<session-timeout>60</session-timeout>
+   </session-config>
+   -->
+   
+  <!-- 过滤器配置 -->
+  <!-- 
+  <filter>
+  	<filter-name>filter</filter-name>
+  	<filter-class>filter.MyFilter</filter-class>
+  	<init-param>
+  	  <param-name>paramName</param-name>
+  	  <param-value>paramValue</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>filter</filter-name>
+  	<url-pattern>*.action</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>
+  	<dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
+   -->
+  <servlet>
+  	<servlet-name>JavaFormTest</servlet-name>
+  	<servlet-class>login.JavaFormTest</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+	<servlet-name>JavaFormTest</servlet-name>
+	<url-pattern>/JavaFormTest</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+  	<servlet-name>Operate</servlet-name>
+  	<servlet-class>login.Operate</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+	<servlet-name>Operate</servlet-name>
+	<url-pattern>/Operate</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+  	<servlet-name>OpinionActivity</servlet-name>
+  	<servlet-class>user.OpinionActivity</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+	<servlet-name>OpinionActivity</servlet-name>
+	<url-pattern>/OpinionActivity</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  	<servlet-name>Operate1</servlet-name>
+  	<servlet-class>person_message.Operate1</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+	<servlet-name>Operate1</servlet-name>
+	<url-pattern>/Operate1</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+  	<servlet-name>DiaryActivity </servlet-name>
+  	<servlet-class>diary.DiaryActivity </servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+	<servlet-name>DiaryActivity </servlet-name>
+	<url-pattern>/DiaryActivity </url-pattern>
+  </servlet-mapping> 
+</web-app>
